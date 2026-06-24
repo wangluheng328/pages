@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>That Day — Support</title>
+  <style>
+    :root {
+      --bg: #faf8f5;
+      --surface: #f3eee8;
+      --ink: #2c2825;
+      --muted: #8a8279;
+      --accent: #7b3737;
+      --divider: #e8e2da;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 96px 28px 80px;
+    }
+    .eyebrow {
+      font-size: 13px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin: 0 0 18px;
+      font-weight: 600;
+    }
+    h1 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight: 600;
+      font-size: 44px;
+      line-height: 1.1;
+      letter-spacing: -0.01em;
+      margin: 0 0 20px;
+    }
+    .lede {
+      font-size: 19px;
+      color: var(--muted);
+      margin: 0 0 56px;
+      max-width: 30em;
+    }
+    h2 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight: 600;
+      font-size: 24px;
+      margin: 0 0 14px;
+    }
+    section {
+      padding: 32px;
+      background: var(--surface);
+      border-radius: 18px;
+      margin-bottom: 22px;
+    }
+    p { margin: 0 0 14px; }
+    p:last-child { margin-bottom: 0; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .email {
+      display: inline-block;
+      margin-top: 6px;
+      font-size: 19px;
+      font-weight: 600;
+    }
+    .faq-q { font-weight: 600; margin: 22px 0 4px; }
+    .faq-q:first-of-type { margin-top: 0; }
+    .faq-a { color: var(--muted); margin: 0; }
+    footer {
+      margin-top: 56px;
+      padding-top: 28px;
+      border-top: 1px solid var(--divider);
+      color: var(--muted);
+      font-size: 14px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    @media (max-width: 480px) {
+      .wrap { padding: 64px 20px 60px; }
+      h1 { font-size: 34px; }
+      section { padding: 24px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <p class="eyebrow">That Day</p>
+    <h1>Support</h1>
+    <p class="lede">Questions, ideas, or something not working quite right? We'd genuinely love to hear from you.</p>
+
+    <section>
+      <h2>Get in touch</h2>
+      <p>The fastest way to reach us is email. We read every message and usually reply within a couple of days.</p>
+      <a class="email" href="mailto:wangluheng328@gmail.com">wangluheng328@gmail.com</a>
+    </section>
+
+    <section>
+      <h2>Common questions</h2>
+
+      <p class="faq-q">I'm not getting notifications.</p>
+      <p class="faq-a">Make sure notifications are enabled for That Day in the iOS Settings app, under Notifications &rarr; That Day. The app will also remind you if access is turned off.</p>
+
+      <p class="faq-q">Where is my data stored?</p>
+      <p class="faq-a">Everything stays on your device. That Day has no accounts and no servers &mdash; your days, photos, and reminders never leave your iPhone.</p>
+
+      <p class="faq-q">Can I change the app's colors?</p>
+      <p class="faq-a">Yes. Open Settings inside the app to adjust the background and card colors to your taste.</p>
+
+      <p class="faq-q">How do I switch languages?</p>
+      <p class="faq-a">That Day is available in English and 中文. You can switch anytime from Settings inside the app.</p>
+    </section>
+
+    <footer>
+      <span>&copy; 2026 That Day</span>
+      <a href="privacy.html">Privacy Policy</a>
+    </footer>
+  </div>
+</body>
+</html>
